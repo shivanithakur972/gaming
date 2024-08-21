@@ -22,6 +22,9 @@
       background: none;
       color: gray;
     }
+    .right-menu-icon {
+        display: none;
+    }
   }
   .left-menu-bar ul {
     padding: 0;
