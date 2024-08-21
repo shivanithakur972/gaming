@@ -127,6 +127,69 @@ ul li a:hover{
   }
 
 
+  .table-heading h2 {
+      position: relative;
+      display: inline-block;
+      padding-bottom: 20px;
+  }
+  
+  .table-heading {
+      text-align: center;
+      max-width: 670px;
+      margin: 0 auto;
+      position: relative;
+  }
+ /* .heading-underline {
+    position: relative;
+    border-bottom: 8px solid #000;
+      width: 180px;
+      display: block;
+      margin: 0 auto;
+ }
+    .heading-underline::after {
+      position: absolute;
+      content: "";
+      border: 2px solid red;
+      height: 3px;
+      width: 3px;
+      border-radius: 50px;
+      display: block;
+      background: red;
+      top: -7px;
+      animation: move 3s cubic-bezier(0.23, 1, .230, 1) infinite;
 
+  } */
+  .table-heading h2::before {
+    position: absolute;
+    border-bottom: 8px solid #000;
+      width: 100%;
+      display: block;
+      margin: 0 auto;
+      content: "";
+      bottom: 0;
+ }
+    .table-heading h2::after {
+      position: absolute;
+      content: "";
+      border: 2px solid red;
+      height: 3px;
+      width: 3px;
+      border-radius: 50px;
+      display: block;
+      background: red;
+      bottom: 0;
+      animation: move 3s cubic-bezier(0.23, 1, .230, 1) infinite;
 
-
+  }
+  @keyframes move {
+    0% {
+      transform: translateX(0em) rotate(0deg);
+      width: 7px;
+      height: 7px;
+    }
+    100% {
+      transform: translateX(5.45em) rotate(270deg);
+      width: 18px;
+      height: 18px;
+    }
+  }
