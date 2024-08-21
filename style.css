@@ -1,0 +1,132 @@
+ .navbar {
+    background: #fff;
+    box-shadow: 0 4px 6px rgba(22, 22, 26, 0.18);
+  }
+  .navbar .navbar-nav .nav-link {
+    color: #000;
+  }
+  .btn-outline-dark {
+    border-radius: 0;
+  }
+  .btn-outline-dark:focus {
+    box-shadow: none;
+  }
+  @media screen and (max-width: 768px) {
+    .btn-outline-dark {
+      border: none;
+      padding: 0;
+      outline: none;
+    }
+  
+    .btn-outline-dark:hover {
+      background: none;
+      color: gray;
+    }
+  }
+  .left-menu-bar ul {
+    padding: 0;
+    display: none;
+}
+.show-menu {
+    display: block !important;
+}
+  .logo a {
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+.right-menu-icon {
+    float: right;
+}
+
+.right-menu-icon ul {
+    margin: 0;
+    padding: 0;
+}
+
+.right-menu-icon ul li {
+    display: inline-block;
+    padding: 0 0 0 10px;
+}
+footer{
+    background: #282828;   
+}
+.footer-logo{
+    background-color: #FEC53A;
+    color: #000;
+}
+ul h3{
+    color: #fff;
+    font-weight: 450;
+}
+ul li{
+    list-style: none;
+    line-height: 2.5rem;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+ul li a .fab{
+    font-size: 1.2rem;
+    color: #FEC53A;
+    margin-right: 15px;
+}
+ul li a:hover{
+    color: #FEC53A;
+}
+.footer-bottom{
+    background: #1B1919;
+    color: #fff;
+    font-size: 0.875rem;
+}
+.footer-bottom span{
+    color: #FEC53A;
+    font-weight: bold;
+}
+.footer-bottom p {
+    text-align: center;
+} 
+
+
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #fff;
+    display: block;
+  }
+  
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    color: #fff;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+
+
+
+
